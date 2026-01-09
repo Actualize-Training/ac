@@ -1,6 +1,6 @@
-# LLM-Powered Application
+# Let's Build LLM-Powered Apps!
 
-This project uses multiple APIs to power a local AI application using Docker. Make sure to follow the setup instructions below before running the app.
+Here are the setup instructions:
 
 ## ⚙️ Environment Setup
 
@@ -15,7 +15,7 @@ LANGFUSE_PUBLIC_KEY=
 LANGFUSE_BASE_URL=
 ```
 
-> ⚠️ Replace each value with your actual API credentials.
+> ⚠️ Replace each value with your actual API credentials. At a minimum, fill in the `OPENAI_API_KEY`
 
 ## 🚀 Running the App
 
@@ -25,4 +25,12 @@ To build and run the app using Docker Compose:
 docker compose build
 docker compose run app
 ```
+
+To check if everything is working, run:
+
+```
+python chatbot_00.py
+```
+
+If you get some juicy info about George Washington, you should be good to go.
 
