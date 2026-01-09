@@ -19,7 +19,7 @@ LANGFUSE_BASE_URL=
 
 ## 🚀 Running the App
 
-To build and run the app using Docker Compose:
+To build and run the app using Docker:
 
 ```
 docker compose build
@@ -32,5 +32,5 @@ To check if everything is working, run:
 python chatbot_00.py
 ```
 
-If you get some juicy info about George Washington, you should be good to go.
+If you get some juicy info about George Washington, you should be good to go!
 
