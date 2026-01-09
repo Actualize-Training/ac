@@ -1,14 +1,14 @@
 from dotenv import load_dotenv
 from openai import OpenAI
 
-load_dotenv()
+load_dotenv('.env')
 llm = OpenAI()
 
-assistant_message = "Let's play hangman! I'm thinking of a word. Pick a letter."
+assistant_message = "How can I help?"
 user_input = input(f"\nAssistant: {assistant_message}\n\nUser: ")
 
 history = [
-    {"role": "developer", "content": "You are a hangman game."},
+    {"role": "developer", "content": "You are a chatbot that talks like a pirate."},
     {"role": "assistant", "content": assistant_message},
     {"role": "user", "content": user_input}
 ]

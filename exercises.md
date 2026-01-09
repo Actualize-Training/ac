@@ -10,7 +10,9 @@
 
 ## Project 2: Hangman
 
-Create the [Hangman](https://hangmanwordgame.com/) game! You app should be exclusively this game, and not a regular chatbot in which the user can discuss their personal issues...
+Create the [Hangman](https://hangmanwordgame.com/) game! Your app should be exclusively this game, and not a regular chatbot in which the user can discuss their personal issues...
+
+You can build your app by modifying the [hangman.py](hangman.py) file.
 
 Customize the game to make it your own! Do you want the game to draw the actual hangman? Do you want it to display the letters the user already guessed? Whatever you choose, ensure that the game remains consistent upon each play.
 
