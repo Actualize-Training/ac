@@ -8,7 +8,7 @@
 4. Write a function that accepts a text sentiment (e.g. "how lucky I am to be here!"), and returns one of the following emotion categories: `["happy", "sad", "angry", "fear", "surprise", "disgust"]`
 5. Come up with your own ideas!
 
-## Project 2: Hangman
+## Project 2: Hangman 🙂 → 😐 → 😕 → 😵
 
 Create the [Hangman](https://hangmanwordgame.com/) game! Your app should be exclusively this game, and not a regular chatbot in which the user can discuss their personal issues...
 
@@ -18,7 +18,7 @@ Customize the game to make it your own! Do you want the game to draw the actual 
 
 In particular, make sure the game is truly *playable*. This can be a little tricky; see [this failed game](hangman.txt) as an example of what should *not* happen.
 
-## Homework A: Zork
+## Homework A: Zork 🏚️
 
 Don't worry, homework is optional. But if you want to have fun, build a text-based adventure like [Zork](https://iplayif.com/?story=https%3A%2F%2Feblong.com%2Finfocom%2Fgamefiles%2Fzork1-r119-s880429.z3)!
 
