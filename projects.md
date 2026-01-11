@@ -1,5 +1,7 @@
 # Projects & Homework
 
+The projects below are for Session #1. The projects for Session #2 will be added later.
+
 ## Project 1: LLM-Powered Functions 🛠️
 
 1. Write a function that accepts a word and returns its opposite. (For example, if the input text is "top", the output would be "bottom".)
