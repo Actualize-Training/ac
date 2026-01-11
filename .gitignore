@@ -8,3 +8,7 @@ wheels/
 oauth.json
 .env
 .venv
+
+hangman_0.py
+hangman_1.py
+podcast_producer_0.py

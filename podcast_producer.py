@@ -4,7 +4,7 @@ from datetime import date
 from dotenv import load_dotenv
 from langfuse.openai import openai
 from langfuse import observe, get_client
-from podcast_tools import write_to_file, TOOLS
+from podcast_tools import generate_image, write_to_file, create_audio, TOOLS
 
 load_dotenv()
 llm = openai

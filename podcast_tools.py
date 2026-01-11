@@ -47,6 +47,10 @@ TOOLS = [
                 "script": {
                     "type": "string",
                     "description": "A podcast script read by a single host.",
+                },
+                "style": {
+                    "type": "string",
+                    "description": "A description of the podcast style.",
                 }
             },
             "required": ["filename", "script"],
@@ -111,5 +115,3 @@ def generate_image(filename, image_description):
     except Exception as e:
         print(f"Error creating image: {e}")
         return False
-
-generate_image("tabby.png", "a tabby cat detective")
