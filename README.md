@@ -34,7 +34,7 @@ python chatbot_00.py
 
 If you get some juicy info about George Washington, you should be good to go!
 
-## Running Langfuse locally
+## 🪢 Running Langfuse locally
 
 In a separate terminal tab, run:
 
