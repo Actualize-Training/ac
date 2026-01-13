@@ -45,12 +45,10 @@ def system_prompt(documentation):
             
             Also, don't rush headlong into giving advice without first
             proactively asking clarifying questions to help troubleshoot
-            the user's issue. Ask only one clarifying question at a time.
+            the user's issue. Only ask one clarifying question at a time.
 
             You are to answer user queries solely on
             the following documentation: {documentation}.
-            
-            
             """ 
 
 # Main conversation loop:

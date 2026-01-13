@@ -48,7 +48,7 @@ def system_prompt(documentation):
             
             Also, don't rush headlong into giving advice without first
             proactively asking clarifying questions to help troubleshoot
-            the user's issue. Ask only one clarifying question at a time.""" 
+            the user's issue. Only ask one clarifying question at a time.""" 
 
 # Main conversation loop:
 assistant_message = "Welcome to GROSS! How can I help?"

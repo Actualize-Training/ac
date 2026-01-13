@@ -6,7 +6,7 @@ The projects below are for Session #1. The projects for Session #2 will be added
 
 1. Write a function that accepts a word and returns its opposite. (For example, if the input text is "top", the output would be "bottom".)
 2. Write a function that accepts text and returns that same text with its grammar fixed.
-3. Write a function that accepts a number written out in English, such as "one million, five hundred forty six thousand, two hundred and twenty two" and returns the equivalent integer.
+3. Write a function that accepts a number written out in English, such as "one million, five hundred forty six thousand, two hundred and twenty two" and returns the equivalent integer `1546222`.
 4. Write a function that accepts a text sentiment (e.g. "how lucky I am to be here!"), and returns one of the following emotion categories: `["happy", "sad", "angry", "fear", "surprise", "disgust"]`
 5. Come up with your own ideas!
 
