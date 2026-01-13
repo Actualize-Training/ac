@@ -55,5 +55,37 @@ For this project, you can try the long context (PACKing) approach, or be ambitio
 
 ⚠️⚠️⛔⛔ **IMPORTANT WARNING:** Don't feed the chatbot true proprietary data, such as your SSN or private information belonging to your employer. This data will end up in the OpenAI logs, and you *don't want that*. ⛔⛔⚠️⚠️
 
+## Project 4: Build a Recipe App 👩‍🍳
+
+Build an app that provides meal recipes!
+
+You'll find that an LLM can do this decently out of the box. However, to be production ready, consider the following things:
+
+1. Does the app behave consistently? For example, does it always format the recipes in the same way each time? Does it ask the user the same types of clarifying questions each time?
+2. The app should take a user's dietary restrictions into account.
+3. The app should consider what ingredients the user currently has---or, at least, confirm whether the user is willing to go shopping to get the required ingredients.
+4. The app should consider the user's taste preferences as well as current mood.
+5. The app should know how many people are being served.
+6. In the case where the user is willing to go shopping for ingredients, wouldn't it be cool if the app could provide a shopping list?
+7. Feel free to add more criteria.
+
+These are product decisions, and there's no one right way to make a recipe app. So, make these decisions quickly, and then focus on getting the app to behave according to spec.
+
+## Project 5: Build a Podcast Producer 🎙️
+
+You'll build an agent that produces actual audio podcasts for users.
+
+I've set up some tools `podcast_tools.py` that you can equip your agent with. This includes:
+
+* Write to file (simply creates a file on your filesystem)
+* Web search (via [a specialized OpenAI tool](https://platform.openai.com/docs/guides/tools-web-search))
+* Image generation (via [OpenAI's image model](https://platform.openai.com/docs/guides/tools-image-generation))
+* Text-to-speech (via [OpenAI TTS](https://platform.openai.com/docs/guides/text-to-speech))
+
+NOTE: The image generation capabilities may work only if ActiveCampaign has gone through a special verification process.
+
+Now, build an agent that produces podcasts! The user can ask it to create a podcast based on any topic or current events. The agent should produce a transcript text file (.txt), an audio podcast (.mp3), and cover image (.png) for the podcast. Don’t build this all at once; add each bit of functionality one at a time. Starting with a transcript file is a good place to start.
+
+Bonus: Can you come up with some other agent you can build with these same tools? Also, feel free to add tools of your own!
 
 

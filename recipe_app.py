@@ -1,14 +1,14 @@
 from dotenv import load_dotenv
-from openai import OpenAI
+from langfuse.openai import openai 
 
 load_dotenv()
-llm = OpenAI()
+llm = openai
 
-assistant_message = "I'd love to write your next great novel for you! Tell me what you have in mind for the book."
+assistant_message = "What type of recipe are you looking for today?"
 user_input = input(f"\nAssistant: {assistant_message}\n\nUser: ")
 
 history = [
-    {"role": "developer", "content": "You are a best-selling fiction author, and write new stories for users."},
+    {"role": "developer", "content": "You are a recipe writer."},
     {"role": "assistant", "content": assistant_message},
     {"role": "user", "content": user_input}
 ]
