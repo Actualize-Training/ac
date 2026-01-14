@@ -62,8 +62,7 @@ while user_input != "exit":
     while True:  # the agent loop
         response = llm_response(history)
         history += response.output
-        tool_calls = [obj for obj in response.output if \
-                      getattr(obj, "type", None) == "function_call"]
+        tool_calls = [obj for obj in response.output if getattr(obj, "type", None) == "function_call"]
 
         if not tool_calls:
             break  # exit agent loop when there are no tool calls

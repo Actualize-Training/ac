@@ -53,7 +53,7 @@ def launch_site(summary):
         that is to be created. Craft a detailed outline of the page's
         logical sections, plus the copy that should go in each section.
         
-        The landing page should help entice potential customers purchase
+        The landing page should help entice potential customers to purchase
         or sign up for the given product or service. Craft compelling
         copy that achieves this goal.
 

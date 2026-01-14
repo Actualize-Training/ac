@@ -58,7 +58,7 @@ def system_prompt():
     Here are the steps you'll follow to create the landing page:
     1. First, decide on the website's logical sections.
     2. Create the copy for each secion.
-    3. Decide on the design from the site. (You are equipped with a read_webpage tool. This is helpful if the user wantsto point you to a specific website to use as design inspiration.)
+    3. Decide on the design from the site. (You are equipped with a read_webpage tool. This is helpful if the user wants to point you to a specific website to use as design inspiration.)
     4. Generate the HTML and CSS for the site.
     5. Deploy the website! To do this, you are equipped with a deploy_site tool, which accepts a string of HTML/CSS code. This tool deploys the code to a live site.
 

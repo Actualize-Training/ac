@@ -73,9 +73,9 @@ These are product decisions, and there's no one right way to make a recipe app. 
 
 ## Project 5: Build a Podcast Producer 🎙️
 
-You'll build an agent that produces actual audio podcasts for users.
+You'll build an agent that produces actual audio podcasts for users. You can create this within the [podcast_producer.py](podcast_producer.py) file.
 
-I've set up some tools `podcast_tools.py` that you can equip your agent with. This includes:
+I've set up some tools [podcast_tools.py](podcast_tools.py) that you can equip your agent with. This includes:
 
 * Write to file (simply creates a file on your filesystem)
 * Web search (via [a specialized OpenAI tool](https://platform.openai.com/docs/guides/tools-web-search))
