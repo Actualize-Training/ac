@@ -90,6 +90,11 @@ Decide whether you want to create a classic agent (with or without a given plan)
 
 Bonus: Can you come up with some other agent you can build with these same tools? Also, feel free to add tools of your own!
 
-## Project 6: Build a Github Agent
+## Project 6: Build a Coding Agent 🦾
 
-Armed with Github MCP, you can create an agent that reads and maniuplates all things Github. Let's brainstorm some interesting agents and then build one!
+Armed with Github MCP, let's create an agent that contributes to your favorite (or maybe least favorite) codebase. We can brainstorm exactly what this agent may look like, but here are some basic ideas:
+
+* It can answer user questions about a codebase.
+* It could try to resolve Github Issues, writing code and making pull requests.
+* It can put a pull request through a code review.
+
