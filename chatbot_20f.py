@@ -50,7 +50,7 @@ def system_prompt(documentation):
             proactively asking clarifying questions to help troubleshoot
             the user's issue. 
             
-            IMPORTANT: ONLY ASK ONE CLARIFYING QUESTION AT A TIME!""" 
+            IMPORTANT: ONLY ASK ONE CLARIFYING QUESTION AT A TIME! OTHERWISE I'LL LOSE MY JOB""" 
 
 # Main conversation loop:
 assistant_message = "Welcome to GROSS! How can I help?"

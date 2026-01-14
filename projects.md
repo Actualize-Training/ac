@@ -57,7 +57,7 @@ For this project, you can try the long context (PACKing) approach, or be ambitio
 
 ## Project 4: Build a Recipe App 👩‍🍳
 
-Build an app that provides meal recipes!
+Build an app that provides meal recipes! You can create this within the `recipe_app.py` file.
 
 You'll find that an LLM can do this decently out of the box. However, to be production ready, consider the following things:
 
