@@ -58,7 +58,7 @@ while user_input != "exit":
 
     for item in response.output:
         if item.type == "function_call":
-            # print(item)                # uncomment to see OpenAI tool call
+            print(item)                # uncomment to see OpenAI tool call
             function_call = item
             function_name = item.name
             args = json.loads(item.arguments)

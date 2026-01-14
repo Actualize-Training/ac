@@ -3,7 +3,6 @@ import os
 import io
 import zipfile
 import requests
-from bs4 import BeautifulSoup
 
 load_dotenv('.env')
 NETLIFY_TOKEN = os.getenv("NETLIFY_TOKEN")

@@ -86,6 +86,10 @@ NOTE: The image generation capabilities may work only if ActiveCampaign has gone
 
 Now, build an agent that produces podcasts! The user can ask it to create a podcast based on any topic or current events. The agent should produce a transcript text file (.txt), an audio podcast (.mp3), and cover image (.png) for the podcast. Don’t build this all at once; add each bit of functionality one at a time. Starting with a transcript file is a good place to start.
 
+Decide whether you want to create a classic agent (with or without a given plan), or if you'll go with an agentic workflow.
+
 Bonus: Can you come up with some other agent you can build with these same tools? Also, feel free to add tools of your own!
 
+## Project 6: Build a Github Agent
 
+Armed with Github MCP, you can create an agent that reads and maniuplates all things Github. Let's brainstorm some interesting agents and then build one!

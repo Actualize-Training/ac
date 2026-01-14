@@ -27,7 +27,7 @@ TOOLS = [
 def send_email(recipient_email, subject, body):
     yag = yagmail.SMTP(os.getenv("GMAIL_ACCOUNT"), oauth2_file="oauth.json")
     yag.send(to=recipient_email, subject=subject, contents=body)
-    return "Success"  # tool result
+    return "Success"
 
 def llm_response(history):
     response = llm.responses.create(
@@ -41,10 +41,8 @@ def agent_loop(history):
     while True:  # the agent loop
         response = llm_response(history)
         history += response.output
-        tool_calls = [obj for obj in response.output if \
-                      getattr(obj, "type", None) == "function_call"]
-        text_messages = [obj for obj in response.output if \
-                      getattr(obj, "type", None) == "message"]
+        tool_calls = [obj for obj in response.output if getattr(obj, "type", None) == "function_call"]
+        text_messages = [obj for obj in response.output if getattr(obj, "type", None) == "message"]
 
         if not tool_calls:
             break
