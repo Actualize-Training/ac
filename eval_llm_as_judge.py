@@ -29,7 +29,7 @@ def eval_assumed_product(trace):
 
         <instructions>
         You are to inspect a conversation between the troubleshooter LLM and the human
-        user and outputa judgment of either "PASS" or "FAIL"
+        user and output a judgment of either "PASS" or "FAIL"
         First, though, you should separately output your reasoning. Then, output either PASS or FAIL based on your judgment. Your output will be a JSON object such as:
         {{reasoning: 'your reasoning goes here', judgment: 'FAIL'}} or 
         {{reasoning: 'your reasoning goes here', judgment: 'PASS'}}
