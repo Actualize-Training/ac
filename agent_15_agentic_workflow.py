@@ -46,7 +46,7 @@ MAIN_TOOLS = [
 
 @observe()
 def launch_site(summary):
-    # website design agent
+    # website design and copy agent
     webpage_text = llm.responses.create(
         model="gpt-4.1-mini",
         input=f"""Below is a brief description of a web landing page

@@ -9,40 +9,6 @@ load_dotenv('.env')
 NETLIFY_TOKEN = os.getenv("NETLIFY_TOKEN")
 API_BASE = "https://api.netlify.com/api/v1"
 
-DESIGN_TOOLS = [
-    {
-        "type": "function",
-        "name": "read_webpage",
-        "description": "Accesses a webpage and obtains its text.",
-        "parameters": {
-            "type": "object",
-            "properties": {
-                "url": {
-                    "type": "string",
-                    "description": "The URL of the webpage",
-                }
-            },
-            "required": ["url"],
-        },
-    }
-]
-
-DEPLOY_TOOLS = [
-    {
-        "type": "function",
-        "name": "deploy_site",
-        "description": """Accepts HTML code and deploys to a live website. Returns the URL
-        of the live website""",
-        "parameters": {
-            "type": "object",
-            "properties": {
-                "html": { "type": "string" },
-            },
-            "required": ["html"],
-        },
-    }
-]
-
 def read_webpage(url):
     response = requests.get(url)
     html = BeautifulSoup(response.text, "html.parser")
