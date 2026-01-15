@@ -13,6 +13,7 @@ PINECONE_API_KEY=
 LANGFUSE_SECRET_KEY=
 LANGFUSE_PUBLIC_KEY=
 LANGFUSE_BASE_URL="http://langfuse-web:3000"
+GITHUB_TOKEN=
 ```
 
 > ⚠️ Replace each value with your actual API credentials. At a minimum, fill in the `OPENAI_API_KEY`
