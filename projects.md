@@ -37,7 +37,7 @@ Build an ActiveCampaign customer support chatbot! This bot should be familiar wi
 Here's what to do:
 
 1. Fill in the `PINECONE_API_KEY` in your `.env` file with the API key I'll provide you.
-2. Make a copy of the [basic RAG app](chatbot_17b_basic_rag.py).
+2. Make a copy of the [basic RAG app](chatbot_18_openai_rag.py).
 3. Change `pc.Index("maven-gross")` to `pc.Index("ac")`.
 4. Change `namespace="all-gross"` to `namespace="ac"`.
 5. Customize the system prompt to fit an ActiveCampaign chatbot!
